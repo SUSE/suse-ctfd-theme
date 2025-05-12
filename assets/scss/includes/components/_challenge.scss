@@ -1,0 +1,47 @@
+/* Challenge styles
+-------------------------------------------------- */
+
+.challenge-desc {
+  overflow-wrap: anywhere;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+[data-bs-theme="light"] .challenge-button {
+  border: none;
+  box-shadow: 0 0 15px var(--bs-secondary);
+
+  background-color: #0c322c;
+
+  &.challenge-solved {
+    /*background-color: #29c830;*/
+    background-color: #30ba78;
+
+    &:hover {
+      /*background-color: #37d63e;*/
+      background-color: #42d29f;
+    }
+  }
+}
+
+[data-bs-theme="dark"] .challenge-button {
+  border: none;
+  /* background-color: var(--bs-gray-dark); */
+  background-color: #bababa;
+
+  &:hover {
+    background-color: var(--bs-gray);
+  }
+
+  &.challenge-solved {
+    /*background-color: #29c830;*/
+    background-color: #30ba78;
+
+    &:hover {
+      /*background-color: #37d63e;*/
+      background-color: #42d29f;
+    }
+  }
+}
