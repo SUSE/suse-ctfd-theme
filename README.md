@@ -55,7 +55,7 @@ If you are running CTFd via docker and have added the theme as a subtree per abo
 5. repeat the `git subtree add` command from quick setup, replace `main` with your branch name
 6. cd into the themes/suse-ctfd/theme folder
 7. run `yarn install`
-8. run `yard build`
+8. run `yarn build`
 9. reload the browser session where CTFd is being used
 10. curse whoever didn't document a cleaner update path
 
