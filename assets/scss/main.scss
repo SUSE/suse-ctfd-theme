@@ -17,6 +17,14 @@
 @use "includes/icons/award-icons";
 @use "includes/icons/flag-icons";
 
+@include color-mode(dark) {
+  --bs-body-bg: #111; //sets dark body background dark
+}
+
+@include color-mode(light) {
+  --bs-body-bg: #efefef; //sets dark body background dark
+}
+
 h1,
 h2 {
   font-weight: 500;
@@ -36,11 +44,6 @@ input,
 select {
   padding: 0.6rem !important;
   height: auto !important;
-}
-
-body {
-  /* SUSE fog */
-  background-color: #efefef;
 }
 
 .navbar-nav .nav-link {
